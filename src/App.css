@@ -1,0 +1,33 @@
+#root {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  height: auto;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  transition: 0.3s;
+}
+
+.card-image:hover {
+  box-shadow: red 10px 10px 10px;
+  transform: translateY(-20px);
+}
